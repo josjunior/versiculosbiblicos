@@ -14,14 +14,20 @@
             <button type="button" class="menubtn" onclick="menuShow()">TEMAS</button>
             <nav id="nav" class="nav">
                 <button type="button" onclick="menuClose()" class="menuclose">x</button>
-                <a class="navlink" href="#">Categoria 1</a>
-                <a class="navlink" href="#">Categoria 2</a>
-                <a class="navlink" href="#">Categoria 3</a>
-                <a class="navlink" href="#">Categoria 4</a>
-                <a class="navlink" href="#">Categoria 5</a>
+                <button type="button" onclick="funTagOne()" class="navlink">Gratidão</button>
+                <button type="button" onclick="funTagTwo()" class="navlink">Motivação</button>
+                <button type="button" onclick="funTagThree()" class="navlink">Fé</button>
+                <button type="button" onclick="funTagFour()" class="navlink">Esperança</button>
+                <button type="button" onclick="funTagFive()" class="navlink">Perdão</button>
+                <button type="button" onclick="funTagSix()" class="navlink">Milagre</button>
+                <button type="button" onclick="funTagSeven()" class="navlink">Promessa</button>
+                <button type="button" onclick="funTagEight()" class="navlink">Amor de Deus</button>
+                <button type="button" onclick="funTagNine()" class="navlink">Casamento</button>
+                <button type="button" onclick="funTagTeen()" class="navlink">Jovens</button>
             </nav>
         </header>
         <main class="main">
+            <h2 id="tagalert">Versículos com o tema: <i id="tagname"></i></h2>
             <section class="secdivs">
                 <div id="divone"></div>
                 <div id="divtwo"></div>

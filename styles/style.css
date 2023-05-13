@@ -36,6 +36,7 @@ body {
     border-radius:5px;
     background-color: rgb(30,30,30);
     color:white;
+    cursor:pointer;
 }
 .header .menubtn:hover {
     background-color: rgb(25,25,25);
@@ -49,41 +50,38 @@ body {
     top:0;
     overflow-x: hidden;
     background-color:rgba(10,10,10,0.95);
-    padding-top:150px;
+    padding-top:90px;
     transition:width 0.70s;
     transition-timing-function: linear;
 }
 .nav .menuclose {
     position:absolute;
-    right:60px;
-    top:30px;
+    right:80px;
+    top:20px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight:bold;
     font-size:3rem;
     color:white;
     background-color:transparent;
     border-style: none;
+    cursor:pointer;
 }
 .nav .menuclose:hover {
     color:rgb(218, 216, 216);
 }
-.header .nav .navlink:link {
+.header .nav .navlink {
     font-size:2.50rem;
     font-family: 'Source Sans Pro', sans-serif;
     color:white;
+    background-color: transparent;
+    border-style:none;
+    cursor:pointer;
     margin-top:10px;
-    text-decoration:none;
     font-weight: bold;
-    text-align:center;
     display:block;
-}
-.header .nav .navlink:visited {
-    color:white;
+    margin:auto;
 }
 .header .nav .navlink:hover {
-    color:rgb(218, 216, 216);
-}
-.header .nav .navlink:active {
     color:rgb(218, 216, 216);
 }
 .main {
@@ -93,6 +91,17 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.main #tagalert {
+    color:rgb(200,200,200);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:0.80rem;
+    text-transform: uppercase;
+    padding-top:5px;
+}
+.main #tagalert #tagname {
+    color:white;
+    font-style: normal;
 }
 .main .secdivs {
     width:100%;
@@ -129,6 +138,7 @@ body {
     background-color:rgb(20,20,20);
     color:rgb(200,200,200);
     font-size:1.10rem;
+    cursor:pointer;
 }
 .main button:hover {
     background-color:rgb(15,15,15)

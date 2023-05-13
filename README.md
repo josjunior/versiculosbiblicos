@@ -1,0 +1,1 @@
+portal de versículos bíblicos

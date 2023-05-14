@@ -91,6 +91,7 @@ function funTagOne(){
     document.getElementById("tagsbtnallfour").style.display = "none";
     document.getElementById("tagsbtnallfive").style.display = "none";
     document.getElementById("tagsbtnallsix").style.display = "none";
+    document.getElementById("tagsbtnallseven").style.display = "none";
     document.getElementById("tagsbtnalleight").style.display = "none";
     document.getElementById("tagsbtnallnine").style.display = "none";
     document.getElementById("tagsbtnallteen").style.display = "none";
@@ -130,6 +131,7 @@ function funTagTwo(){
     document.getElementById("tagsbtnallfour").style.display = "none";
     document.getElementById("tagsbtnallfive").style.display = "none";
     document.getElementById("tagsbtnallsix").style.display = "none";
+    document.getElementById("tagsbtnallseven").style.display = "none";
     document.getElementById("tagsbtnalleight").style.display = "none";
     document.getElementById("tagsbtnallnine").style.display = "none";
     document.getElementById("tagsbtnallteen").style.display = "none";

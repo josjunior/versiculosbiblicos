@@ -82,9 +82,20 @@ function menuClose() {
     document.getElementById("nav").style.width = "0";
 }
 function funTagOne(){
+    const randomNumber = Math.floor(Math.random() * 3);
     document.getElementById("tagalert").style.display = "block";
     document.getElementById("tagname").innerHTML = "Gratidão";
-    const versiculosOne = "Salmos 92:1-2 - Como é bom render graças ao Senhor e cantar louvores ao teu nome, ó Altíssimo; anunciar de manhã o teu amor leal e de noite a tua fidelidade.";
+    document.getElementById("tagsbtnallone").style.display = "none";
+    document.getElementById("tagsbtnalltwo").style.display = "block";
+    document.getElementById("tagsbtnallthree").style.display = "none";
+    document.getElementById("tagsbtnallfour").style.display = "none";
+    document.getElementById("tagsbtnallfive").style.display = "none";
+    document.getElementById("tagsbtnallsix").style.display = "none";
+    document.getElementById("tagsbtnalleight").style.display = "none";
+    document.getElementById("tagsbtnallnine").style.display = "none";
+    document.getElementById("tagsbtnallteen").style.display = "none";
+    document.getElementById("tagsbtnalleleven").style.display = "none";
+    const versiculosOne = ["Salmos 92:1-2 - Como é bom render graças ao Senhor e cantar louvores ao teu nome, ó Altíssimo; anunciar de manhã o teu amor leal e de noite a tua fidelidade.", "2", "3"];
     const versiculosTwo = "1 Tessalonicenses 5:18 - Deem graças em todas as circunstâncias, pois esta é a vontade de Deus para vocês em Cristo Jesus.";
     const versiculosThree = "Salmos 103:2 - Bendiga o Senhor a minha alma! Não esqueça nenhuma de suas bênçãos!";
     const versiculosFour = "Efésios 1:16 - Não deixo de dar graças por vocês, mencionando-os em minhas orações.";
@@ -96,7 +107,7 @@ function funTagOne(){
     const versiculosTeen = "2 Samuel 22:47 - O Senhor vive! Bendita seja a minha Rocha! Exaltado seja Deus, a Rocha que me salva!";
     const versiculosEleven = "Apocalipse 5:12 - Digno é o Cordeiro que foi morto de receber poder, riqueza, sabedoria, força, honra, glória e louvor!";
     const versiculosTwelve = "Isaías 6:3 - Santo, santo, santo é o Senhor dos Exércitos, a terra inteira está cheia da sua glória.";
-    document.getElementById("divone").innerHTML = versiculosOne;
+    document.getElementById("divone").innerHTML = versiculosOne[randomNumber];
     document.getElementById("divtwo").innerHTML = versiculosTwo;
     document.getElementById("divthree").innerHTML = versiculosThree;
     document.getElementById("divfour").innerHTML = versiculosFour;
@@ -113,6 +124,16 @@ function funTagOne(){
 function funTagTwo(){
     document.getElementById("tagalert").style.display = "block";
     document.getElementById("tagname").innerHTML = "Motivação";
+    document.getElementById("tagsbtnallone").style.display = "none";
+    document.getElementById("tagsbtnalltwo").style.display = "none";
+    document.getElementById("tagsbtnallthree").style.display = "block";
+    document.getElementById("tagsbtnallfour").style.display = "none";
+    document.getElementById("tagsbtnallfive").style.display = "none";
+    document.getElementById("tagsbtnallsix").style.display = "none";
+    document.getElementById("tagsbtnalleight").style.display = "none";
+    document.getElementById("tagsbtnallnine").style.display = "none";
+    document.getElementById("tagsbtnallteen").style.display = "none";
+    document.getElementById("tagsbtnalleleven").style.display = "none";
     const versiculosOne = "test2Mateus 6:33 - Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas serão acrescentadas a vocês.";
     const versiculosTwo = "Josué 1:9 - Não fui eu que ordenei a você? Seja forte e corajoso! Não se apavore nem desanime, pois o Senhor, o seu Deus, estará com você por onde você andar.";
     const versiculosThree = "João 3:16 - Porque Deus tanto amou o mundo que deu o seu filho Unigênito, para que todo o que nele crer não pereça, mas tenha a vida eterna.";
@@ -142,6 +163,17 @@ function funTagTwo(){
 function funTagThree(){
     document.getElementById("tagalert").style.display = "block";
     document.getElementById("tagname").innerHTML = "Fé";
+    document.getElementById("tagsbtnallone").style.display = "none";
+    document.getElementById("tagsbtnalltwo").style.display = "none";
+    document.getElementById("tagsbtnallthree").style.display = "none";
+    document.getElementById("tagsbtnallfour").style.display = "block";
+    document.getElementById("tagsbtnallfive").style.display = "none";
+    document.getElementById("tagsbtnallsix").style.display = "none";
+    document.getElementById("tagsbtnallseven").style.display = "none";
+    document.getElementById("tagsbtnalleight").style.display = "none";
+    document.getElementById("tagsbtnallnine").style.display = "none";
+    document.getElementById("tagsbtnallteen").style.display = "none";
+    document.getElementById("tagsbtnalleleven").style.display = "none";
     const versiculosOne = "test3Mateus 6:33 - Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas serão acrescentadas a vocês.";
     const versiculosTwo = "Josué 1:9 - Não fui eu que ordenei a você? Seja forte e corajoso! Não se apavore nem desanime, pois o Senhor, o seu Deus, estará com você por onde você andar.";
     const versiculosThree = "João 3:16 - Porque Deus tanto amou o mundo que deu o seu filho Unigênito, para que todo o que nele crer não pereça, mas tenha a vida eterna.";
@@ -171,6 +203,17 @@ function funTagThree(){
 function funTagFour(){
     document.getElementById("tagalert").style.display = "block";
     document.getElementById("tagname").innerHTML = "Esperança";
+    document.getElementById("tagsbtnallone").style.display = "none";
+    document.getElementById("tagsbtnalltwo").style.display = "none";
+    document.getElementById("tagsbtnallthree").style.display = "none";
+    document.getElementById("tagsbtnallfour").style.display = "none";
+    document.getElementById("tagsbtnallfive").style.display = "block";
+    document.getElementById("tagsbtnallsix").style.display = "none";
+    document.getElementById("tagsbtnallseven").style.display = "none";
+    document.getElementById("tagsbtnalleight").style.display = "none";
+    document.getElementById("tagsbtnallnine").style.display = "none";
+    document.getElementById("tagsbtnallteen").style.display = "none";
+    document.getElementById("tagsbtnalleleven").style.display = "none";
     const versiculosOne = "test4Mateus 6:33 - Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas serão acrescentadas a vocês.";
     const versiculosTwo = "Josué 1:9 - Não fui eu que ordenei a você? Seja forte e corajoso! Não se apavore nem desanime, pois o Senhor, o seu Deus, estará com você por onde você andar.";
     const versiculosThree = "João 3:16 - Porque Deus tanto amou o mundo que deu o seu filho Unigênito, para que todo o que nele crer não pereça, mas tenha a vida eterna.";
@@ -200,6 +243,17 @@ function funTagFour(){
 function funTagFive(){
     document.getElementById("tagalert").style.display = "block";
     document.getElementById("tagname").innerHTML = "Perdão";
+    document.getElementById("tagsbtnallone").style.display = "none";
+    document.getElementById("tagsbtnalltwo").style.display = "none";
+    document.getElementById("tagsbtnallthree").style.display = "none";
+    document.getElementById("tagsbtnallfour").style.display = "none";
+    document.getElementById("tagsbtnallfive").style.display = "none";
+    document.getElementById("tagsbtnallsix").style.display = "block";
+    document.getElementById("tagsbtnallseven").style.display = "none";
+    document.getElementById("tagsbtnalleight").style.display = "none";
+    document.getElementById("tagsbtnallnine").style.display = "none";
+    document.getElementById("tagsbtnallteen").style.display = "none";
+    document.getElementById("tagsbtnalleleven").style.display = "none";
     const versiculosOne = "test5Mateus 6:33 - Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas serão acrescentadas a vocês.";
     const versiculosTwo = "Josué 1:9 - Não fui eu que ordenei a você? Seja forte e corajoso! Não se apavore nem desanime, pois o Senhor, o seu Deus, estará com você por onde você andar.";
     const versiculosThree = "João 3:16 - Porque Deus tanto amou o mundo que deu o seu filho Unigênito, para que todo o que nele crer não pereça, mas tenha a vida eterna.";
@@ -229,6 +283,17 @@ function funTagFive(){
 function funTagSix(){
     document.getElementById("tagalert").style.display = "block";
     document.getElementById("tagname").innerHTML = "Milagre";
+    document.getElementById("tagsbtnallone").style.display = "none";
+    document.getElementById("tagsbtnalltwo").style.display = "none";
+    document.getElementById("tagsbtnallthree").style.display = "none";
+    document.getElementById("tagsbtnallfour").style.display = "none";
+    document.getElementById("tagsbtnallfive").style.display = "none";
+    document.getElementById("tagsbtnallsix").style.display = "none";
+    document.getElementById("tagsbtnallseven").style.display = "block";
+    document.getElementById("tagsbtnalleight").style.display = "none";
+    document.getElementById("tagsbtnallnine").style.display = "none";
+    document.getElementById("tagsbtnallteen").style.display = "none";
+    document.getElementById("tagsbtnalleleven").style.display = "none";
     const versiculosOne = "test5Mateus 6:33 - Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas serão acrescentadas a vocês.";
     const versiculosTwo = "Josué 1:9 - Não fui eu que ordenei a você? Seja forte e corajoso! Não se apavore nem desanime, pois o Senhor, o seu Deus, estará com você por onde você andar.";
     const versiculosThree = "João 3:16 - Porque Deus tanto amou o mundo que deu o seu filho Unigênito, para que todo o que nele crer não pereça, mas tenha a vida eterna.";
@@ -258,6 +323,17 @@ function funTagSix(){
 function funTagSeven(){
     document.getElementById("tagalert").style.display = "block";
     document.getElementById("tagname").innerHTML = "Promessa";
+    document.getElementById("tagsbtnallone").style.display = "none";
+    document.getElementById("tagsbtnalltwo").style.display = "none";
+    document.getElementById("tagsbtnallthree").style.display = "none";
+    document.getElementById("tagsbtnallfour").style.display = "none";
+    document.getElementById("tagsbtnallfive").style.display = "none";
+    document.getElementById("tagsbtnallsix").style.display = "none";
+    document.getElementById("tagsbtnallseven").style.display = "none";
+    document.getElementById("tagsbtnalleight").style.display = "block";
+    document.getElementById("tagsbtnallnine").style.display = "none";
+    document.getElementById("tagsbtnallteen").style.display = "none";
+    document.getElementById("tagsbtnalleleven").style.display = "none";
     const versiculosOne = "test5Mateus 6:33 - Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas serão acrescentadas a vocês.";
     const versiculosTwo = "Josué 1:9 - Não fui eu que ordenei a você? Seja forte e corajoso! Não se apavore nem desanime, pois o Senhor, o seu Deus, estará com você por onde você andar.";
     const versiculosThree = "João 3:16 - Porque Deus tanto amou o mundo que deu o seu filho Unigênito, para que todo o que nele crer não pereça, mas tenha a vida eterna.";
@@ -287,6 +363,17 @@ function funTagSeven(){
 function funTagEight(){
     document.getElementById("tagalert").style.display = "block";
     document.getElementById("tagname").innerHTML = "Amor de Deus";
+    document.getElementById("tagsbtnallone").style.display = "none";
+    document.getElementById("tagsbtnalltwo").style.display = "none";
+    document.getElementById("tagsbtnallthree").style.display = "none";
+    document.getElementById("tagsbtnallfour").style.display = "none";
+    document.getElementById("tagsbtnallfive").style.display = "none";
+    document.getElementById("tagsbtnallsix").style.display = "none";
+    document.getElementById("tagsbtnallseven").style.display = "nine";
+    document.getElementById("tagsbtnalleight").style.display = "none";
+    document.getElementById("tagsbtnallnine").style.display = "block";
+    document.getElementById("tagsbtnallteen").style.display = "none";
+    document.getElementById("tagsbtnalleleven").style.display = "none";
     const versiculosOne = "test5Mateus 6:33 - Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas serão acrescentadas a vocês.";
     const versiculosTwo = "Josué 1:9 - Não fui eu que ordenei a você? Seja forte e corajoso! Não se apavore nem desanime, pois o Senhor, o seu Deus, estará com você por onde você andar.";
     const versiculosThree = "João 3:16 - Porque Deus tanto amou o mundo que deu o seu filho Unigênito, para que todo o que nele crer não pereça, mas tenha a vida eterna.";
@@ -316,6 +403,17 @@ function funTagEight(){
 function funTagNine(){
     document.getElementById("tagalert").style.display = "block";
     document.getElementById("tagname").innerHTML = "Casamento";
+    document.getElementById("tagsbtnallone").style.display = "none";
+    document.getElementById("tagsbtnalltwo").style.display = "none";
+    document.getElementById("tagsbtnallthree").style.display = "none";
+    document.getElementById("tagsbtnallfour").style.display = "none";
+    document.getElementById("tagsbtnallfive").style.display = "none";
+    document.getElementById("tagsbtnallsix").style.display = "none";
+    document.getElementById("tagsbtnallseven").style.display = "none";
+    document.getElementById("tagsbtnalleight").style.display = "none";
+    document.getElementById("tagsbtnallnine").style.display = "none";
+    document.getElementById("tagsbtnallteen").style.display = "block";
+    document.getElementById("tagsbtnalleleven").style.display = "none";
     const versiculosOne = "test5Mateus 6:33 - Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas serão acrescentadas a vocês.";
     const versiculosTwo = "Josué 1:9 - Não fui eu que ordenei a você? Seja forte e corajoso! Não se apavore nem desanime, pois o Senhor, o seu Deus, estará com você por onde você andar.";
     const versiculosThree = "João 3:16 - Porque Deus tanto amou o mundo que deu o seu filho Unigênito, para que todo o que nele crer não pereça, mas tenha a vida eterna.";
@@ -345,6 +443,17 @@ function funTagNine(){
 function funTagTeen(){
     document.getElementById("tagalert").style.display = "block";
     document.getElementById("tagname").innerHTML = "Jovens";
+    document.getElementById("tagsbtnallone").style.display = "none";
+    document.getElementById("tagsbtnalltwo").style.display = "none";
+    document.getElementById("tagsbtnallthree").style.display = "none";
+    document.getElementById("tagsbtnallfour").style.display = "none";
+    document.getElementById("tagsbtnallfive").style.display = "none";
+    document.getElementById("tagsbtnallsix").style.display = "none";
+    document.getElementById("tagsbtnallseven").style.display = "none";
+    document.getElementById("tagsbtnalleight").style.display = "none";
+    document.getElementById("tagsbtnallnine").style.display = "none";
+    document.getElementById("tagsbtnallteen").style.display = "none";
+    document.getElementById("tagsbtnalleleven").style.display = "block";
     const versiculosOne = "test5Mateus 6:33 - Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas serão acrescentadas a vocês.";
     const versiculosTwo = "Josué 1:9 - Não fui eu que ordenei a você? Seja forte e corajoso! Não se apavore nem desanime, pois o Senhor, o seu Deus, estará com você por onde você andar.";
     const versiculosThree = "João 3:16 - Porque Deus tanto amou o mundo que deu o seu filho Unigênito, para que todo o que nele crer não pereça, mas tenha a vida eterna.";

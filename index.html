@@ -11,6 +11,7 @@
     <body>
         <header class="header">
             <h1>Versículos Bíblicos</h1>
+            <a href="index.html" class="menubtn">INÍCIO</a>
             <button type="button" class="menubtn" onclick="menuShow()">TEMAS</button>
             <nav id="nav" class="nav">
                 <button type="button" onclick="menuClose()" class="menuclose">x</button>
@@ -40,9 +41,20 @@
                 <div id="diveleven"></div>
                 <div id="divtwelve"></div>
             </section>
-            <button type="button" onclick="funSwap()">Mais Versículos</button>
+            <button type="button" id="tagsbtnallone" onclick="funSwap()">Mais Versículos</button>
+            <button type="button" id="tagsbtnalltwo" class="tagsbtnall" onclick="funTagOne()">Mais Versículos</button>
+            <button type="button" id="tagsbtnallthree" class="tagsbtnall" onclick="funTagTwo()">Mais Versículos</button>
+            <button type="button" id="tagsbtnallfour" class="tagsbtnall" onclick="funTagThree()">Mais Versículos</button>
+            <button type="button" id="tagsbtnallfive" class="tagsbtnall" onclick="funTagFour()">Mais Versículos</button>
+            <button type="button" id="tagsbtnallsix" class="tagsbtnall" onclick="funTagFive()">Mais Versículos</button>
+            <button type="button" id="tagsbtnallseven" class="tagsbtnall" onclick="funTagSix()">Mais Versículos</button>
+            <button type="button" id="tagsbtnalleight" class="tagsbtnall" onclick="funTagSeven()">Mais Versículos</button>
+            <button type="button" id="tagsbtnallnine" class="tagsbtnall" onclick="funTagEight()">Mais Versículos</button>
+            <button type="button" id="tagsbtnallteen" class="tagsbtnall" onclick="funTagNine()">Mais Versículos</button>
+            <button type="button" id="tagsbtnalleleven" class="tagsbtnall" onclick="funTagTeen()">Mais Versículos</button>
         </main>
         <footer class="footer">
+            <p>Versículos baseados em versões bíblicas já lançadas</p>
             <p>&#169; Versículos Bíblicos 2023 - JosJr</p>
         </footer>
     </body>

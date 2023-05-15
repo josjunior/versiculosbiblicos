@@ -157,6 +157,16 @@ body {
     height:auto;
     padding:20px;
 }
+.footer .socialicons {
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+}
 .footer p {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;

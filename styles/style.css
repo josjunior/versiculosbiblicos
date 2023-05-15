@@ -28,6 +28,9 @@ body {
     color:rgb(200,200,200);
     margin-right:10px;
 }
+.header h1 span {
+    color:brown;
+}
 .header .menubtn {
     padding:10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -159,4 +162,42 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     color:rgb(200,200,200);
+}
+.footer p span {
+    color:brown;
+}
+.footer p a:link {
+    text-decoration: none;
+    color:rgb(200,200,200);
+}
+.footer p a:visited {
+    color:rgb(200,200,200);
+}
+.footer p a:hover {
+    color:rgb(150,150,150);
+}
+.footer p a:active {
+    color:rgb(200,200,200);
+}
+@media screen and (max-width:800px){
+    .header {
+        flex-direction: column;
+    }
+    .header .menubtn {
+        display:inline-block;
+        width:100%;
+        text-align:center;
+        margin-top:5px;
+    }
+    .main .secdivs {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main .secdivs div {
+        width:90%;
+    }
+    #contact {
+        display:none;
+    }
 }
